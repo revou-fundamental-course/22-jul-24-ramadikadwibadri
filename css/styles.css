@@ -4,6 +4,7 @@ nav  {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: aquamarine;
 }
 
 .logo-icon{
@@ -13,6 +14,8 @@ nav  {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: aquamarine;
+    border-radius: 50px;
 }
 
 .nav-container{
@@ -37,8 +40,8 @@ nav  {
 }
 
 .main-content-item{
-    border: 1px solid; 
-    width: 100%;
+    
+    width: 70%;
     height: 600px;
     padding-left: 10px;
     
@@ -46,13 +49,15 @@ nav  {
 
 .main-content-banner{
     
-    width: 100%;
+    width: 150%;
     height: 500px;
-    background-image: url(/assets/logo-travel.png);
+    background-image: url(/assets/travel\ pesawat.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     padding-left: 0px;
     margin-left: 0px;
+   
+    
     
     
 }
@@ -82,4 +87,10 @@ nav  {
 .pesan-footer {
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
+
+.kanan {
+    width: 70%;
+    margin-left: 500px;
+    background-color: gray;
 }
