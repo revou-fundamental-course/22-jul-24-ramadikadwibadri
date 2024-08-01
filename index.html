@@ -22,33 +22,70 @@
     <main>
         <article class="main-title">
             <header>
-                <h1>You Trasted Course</h1>
+                <h1>You Trasted Travel Agent's</h1>
             </header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium sint consequuntur commodi ratione provident itaque dicta fuga dolores culpa suscipit alias, quis, veniam recusandae temporibus eos. Iste, nisi nobis!</p>
+            <p>Your happiness is our hapiness</p> 
+            <br/>
+            <br/>
         </article>
 
         <section class="main-content">
             <article class="main-content-item">
                 <div class="main-content-banner"></div>
                 
-                <div class="main-item">
-                    <div class="item-icon"></div>
+             
                     
-                    <div>
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum</p>
-                    </div>
+                        
+                        <p>"Liburan jadi menyenangkan bersama Travel Agentku"</p>
+                    
                 </div>
 
             </article>
 
-            <formc class="main-content-item">
+
+            <form class="main-content-item" name="message-form" onsubmit="return validateForm()">
+                <h1>Contact Us</h1>
+                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p><br>
+                <p class="all-pesan">Your Name :<span id="sender-full-name"></span></p><br>
+                    <input placeholder="First and last name" type="text" id="name-input" name="full-name"><br>
+
+                <p class="all-pesan">Email Address :<span id="sender-address"></span></p> <br> <input placeholder="example@gmail.com" type="text" name="address"/> <br/>
+
+                <p class="all-pesan">Gender :<span id="sender-gender"></span></p> <br /> 
+                    <input type="radio" id="male" name="gender" value="male"/>
+                    <label for="male">Laki-Laki</label>
+
+                    <input type="radio" id="female" name="gender" value="female"/>
+                    <label for="female">Perempuan</label>
+                <br />
+                
+                <p class="all-pesan">Pesan:<span id="sender-messages"></span></p> <br/>
+                <textarea placeholder="Pesan" name="messages"></textarea>
+                <br /> <br />
+                
+                
+                <input type="submit" value="submit" />
+
+          
+                
 
             </form>
 
         </section>
-
+        <script src="js/script.js"></script>
     </main>
-    
+
 </body>
+<footer>
+    <h3 class="pesan-footer"> Use this space to provide users with more information<br> 
+    about your offer. Consider it a follow-up to your headline<br>
+    and explain the benefits of your service or product</h3>
+
+    <ol>
+        <li>Your first feature, written in the form of a <br> benefit statement.</li>
+        <li>Your second feature, written in the form<br> of a benefit statement.</li>
+        <li>Your third feature written, in the form of<br> a benefit statement</li>
+    </ol>
+    
+</footer>
 </html>
